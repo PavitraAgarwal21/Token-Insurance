@@ -1,0 +1,222 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/contracts/AssetInsurance.sol": {
+      "lastModificationDate": 1689400236221,
+      "contentHash": "988544490b49069fa49e6d08485e4c47",
+      "sourceName": "contracts/AssetInsurance.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "AssetWalletInsurance",
+        "CryptoAssetInsuranceFactory"
+      ]
+    },
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/contracts/IERC20.sol": {
+      "lastModificationDate": 1689400236221,
+      "contentHash": "d3f395dc838796643e7a71419900ab23",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/node_modules/@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1689400420410,
+      "contentHash": "d9654a0fc044a31d4106ee6bca772add",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/contracts/PriceConverter.sol": {
+      "lastModificationDate": 1689400236221,
+      "contentHash": "654ae284893fd6214d618e8f48fd206f",
+      "sourceName": "contracts/PriceConverter.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "PriceConsumerV3"
+      ]
+    },
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/contracts/ContractInsurance.sol": {
+      "lastModificationDate": 1689400236221,
+      "contentHash": "d03e85f4fc64adfbd0de093645669dcf",
+      "sourceName": "contracts/ContractInsurance.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "CryptoWalletInsurance",
+        "CryptoWalletInsuranceFactory"
+      ]
+    },
+    "/Users/pavitraagarwal/Desktop/Insurance-Provider-Hardhat-main/contracts/Storage.sol": {
+      "lastModificationDate": 1689400236221,
+      "contentHash": "e4260c9eabba209d384f4a5ef92b7c2c",
+      "sourceName": "contracts/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.18"
+      ],
+      "artifacts": [
+        "Storage"
+      ]
+    }
+  }
+}
